@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>practice 1</title>
+	<link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+<!--This is header section of the page which include the title and image and login-->
+<header>
+<h1 style="text-align:center">Book Store</h1>
+<p style="background-color: lightgrey"><br><a href="#about page">About the Page</a>&nbsp&nbsp&nbsp <a href="#books">Book Categories</a>&nbsp&nbsp&nbsp<a href="#Best_selled">Best selled Books</a>&nbsp&nbsp&nbsp<a href="#Recent_books">Recent_books</a>
+<a href="#Achievements">Achievements</a>&nbsp&nbsp&nbsp<br><br></p>
+<marquee>15% off on HTML,CSS,JavaSCript Ebooks</marquee>
+<img src="http://www.ikewrites.com/wp-content/uploads/2010/06/cool_bookstore.jpg" style="text-align:center;"alt="book store" height="200"width="950" align="left"/>
+<form align="center">
+<h4>Please Login Here:</h4>
+	<table>
+	<tr><td>Enter name :</td><td><input type="text" name="name"></td></tr>
+	<tr><td>Password :</td><td><input type="password" name="password"></td></tr>
+	<tr align="right"><td><input type="button" value="Login"/></td></tr>
+	<tr><td></td><td>If not Registered ? Please sign in:<input type="button" value="Sign In"/></td></tr><br><br>
+	</table>
+</form>
+</header>
+<!-- This is the section1 which gives the description of the page-->
+<section id="about page" style="text-align: left">
+<h3>About the page:</h4><p>This book store Contains electronics copies of books related to Computer Science,Electrical and Electronics Engineering,Mechanical Engineering<del>,Chemical engineering</del>.Check in the <mark>Book Categories </mark> section and look for the books under each category.</p>
+If you would like to refer tutorial on html on w3schools here yo go:<a href="http://www.w3schools.com/html/" target="_blank">Visit our HTML tutorial!</a>
+<p>Sample view <iframe src="http://www.w3schools.com/html/"height="200" width="700"style="border:2px solid grey;"></iframe>
+</p>
+</section>
+<!-- Section 2 which displays the book categories-->
+<aside id="books" align="left">
+<h3 title="click on the bottom arrow symbol"><strong><i>Book Categories:</i></strong>put the mouse on the over here to view the title</h3>
+<details>
+<summary>Computer Science</summary>
+	<p><span><a href="#"> <em>CS book 1</a></em></span><br>
+	<span><a href="#"><em>CS book 2</a></em></span><br>
+	<span><a href="#"><em>CS book 3</a></em></span><br>
+	<span><a href="#"><em>CS book 4</a></em></span></p>
+</details>
+<details>
+<summary>Electrical Engineering</summary>
+	<p><span><a href="#"> <em>EE book 1</a></em></span><br>
+	<span><a href="#"><em>EE book 2</a></em></span><br>
+	<span><a href="#"><em>EE book 3</a></em></span><br>
+	<span><a href="#"><em>EE book 4</a></em></span></p>
+</details>
+</aside>
+
+
+<section id="Best_selled" style="text-align: 30px">
+<h3>Best selled Books</h3>
+<ul>
+	<li>HTML5 book by X</li>
+	<li>CSS book by Y</li>
+	<li>Complete Java Reference by abc</li>
+</ul>
+</section>
+<section id="Recent_books" style="text-align: 30px">
+<h3>Five Most Recent books</h3>
+<ol>
+	<li>Bootstrap book by X</li>
+	<li>Angular JS book by Y</li>
+	<li>Meteor JS by abc</li>
+	<li> CSS6 by Ghi</li>
+	<li>Web Services by Asd</li>
+</ul>
+</section>
+<section id="Achievements">
+<h3>Achievements</h3>
+<p>Progress in HTML course (100%)<progress value="1" max="1">100%</progress></p>
+<p>Progress in the Specialization Capstone (20%)<progress max="5" value="1">20%</progress></p>
+<p>Progress in Java Script course(40%)<progress max="5" value="2">20%</progress></p>	
+</section>
+<section>
+<p>If you have any questions plase enter below:<textarea placeholder="plaese enter here"></textarea>&nbsp<button type="submit">Submit</button></p>
+</section>
+<footer style="background-color: lightgrey">
+	<p align="center">This page was created by Student1 as a park of UI training, <br>&amp Copy right &copy Radha 
+	</p>
+</footer>
+</body>
+</html>
